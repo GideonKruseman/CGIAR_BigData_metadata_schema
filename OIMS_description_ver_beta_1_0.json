@@ -1,0 +1,131 @@
+{
+  "OIMS_schema": {
+    "title": "OIMS",
+    "description":"human-readable, machine-actionable flexible and extensible, ontology-independent metadata schema focussed on making messy socio-economic data FAIRER",
+    "version": "Beta 1.0",
+    "original_author": "Gideon Kruseman",
+    "contact": "g.kruseman@cgiar.org",
+    "date_start": "2018-10-18",
+    "status": "development",
+    "feeze_date": "",
+    {
+      "version": "Beta 1.0.1"
+      "update_by": "",
+      "update_date": "",
+      "change description": ""
+    }   
+  },
+  "study_collection": {
+    "status": "optional",
+    "description":"a study or collection is a set of one or more data sets that can be considered together",
+    "name": [
+      {
+        "description":"name of the study or collection",
+        "status": "required",
+        "data_type": "string",
+        "format": "Follow standard title formatting for capitalization and punctuation" 
+      }
+    ],
+    "description": [
+      {
+        "description":"description of the study or collection ",
+        "status": "required",
+        "data_type": "string",
+        "format": "short paragraph or a few phrases" 
+        
+      }
+    ],
+    "version": [
+      {
+        "description":"version of the study or collection",
+        "status": "required",
+        "data_type": "string",
+        "format": "short paragraph or a few phrases" 
+        
+      }
+    ],
+    "date": [
+      {
+        "description":"date of the update of the collection",
+        "status": "required",
+        "data_type": "date",
+        "format": "yyyy-mm-dd" 
+        
+      }
+    ],
+    "URL": [
+      {
+        "description":"Portal to the collection",
+        "status": "optional",
+        "data_type": "URL",
+        "format": "URL" 
+        
+      }
+    ],
+    "RDIP": [
+      {
+          "data_set": [
+            {
+              "configuration": [
+                {
+                  "descriptive_metadata_schema": [
+                    {
+                      "description": "identifier of the descriptive metadata schema",
+                      "status": "required",
+                      "data_type": "string",
+                      "format":"",
+                      "std_value": "CGCORE_metadata"
+                    }
+                  ],
+                  "descriptive_metadata_schema_version": [
+                    {
+                      "description": "identifier of the descriptive metadata schema",
+                      "status": "required",
+                      "data_type": "string",
+                      "format": "",
+                      "std_value": "beta 1.0"
+                    }
+                  ],
+                  "descriptive_metadata_schema_date": [
+                    {
+                      "description": "identifier of the descriptive metadata schema",
+                      "status": "required",
+                      "data_type": "string",
+                      "format": "",
+                      "std_value": "beta 1.0"
+                    }
+                  ],"2017-03-02",
+                  "descriptive_metadata_schema_URL": [
+                    {
+                      "description": "persistent identifier",
+                      "status": "required",
+                      "data_type": "URL",
+                      "format": "",
+                      "std_value": "https://mel.cgiar.org/reporting/download/hash/PBksRYEr"
+                    }
+                  ],
+                }
+              ],
+              "CGCore_metadata"
+            }
+          ]
+      },
+      {
+          "documentation": [
+            {
+              
+            }
+          ]
+      
+      },
+      {
+          "publications": [
+            {
+              
+            }
+          ]
+      
+      },
+    ] 
+  }
+}  
