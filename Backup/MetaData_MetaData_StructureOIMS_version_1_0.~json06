@@ -1,7 +1,7 @@
 {
 "//": "<%REGION File header%>"
 "//": " ============================================================================="
-"//": " File      : MetaData_MetaData_StructureOIMS_version_1_0.json                               "
+"//": " File      : MetaData_StructureOIMS_version_1_0.json                               "
 "//": " Author    : Gideon Kruseman (g.kruseman@cgiar.org)                           "
 "//": " Version   : 1.0                                                       "
 "//": " Date      : 5/3/2019 2:03:29 PM                                             "
@@ -28,11 +28,14 @@
   "Metadata_schema": [
      {
        "SchemaName":"OIMS",
-       "versionlinks": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/versionlinks.json"
+       "versions": [
+         {
+           "URL":"Beta 1.1.0",
+         }
+       ]
        "schema_URL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master",
        "schema_documentation_URL": "",
-       "SchemaType": "MetaDataSchemaStructureMetaData"
-       "SchemaTypeVersion": "1.0"
+       "SchemaType": "SchemaStructureMetaData"
      }
   ]
 }

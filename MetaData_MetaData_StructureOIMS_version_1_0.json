@@ -29,7 +29,7 @@
      {
        "SchemaName":"OIMS",
        "versionlinks": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/versionlinks.json"
-       "schema_URL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master",
+       "schema_URL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_MetaData_StructureOIMS_version_1_0.json",
        "schema_documentation_URL": "",
        "SchemaType": "MetaDataSchemaStructureMetaData"
        "SchemaTypeVersion": "1.0"
