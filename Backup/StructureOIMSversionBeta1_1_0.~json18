@@ -22,9 +22,6 @@
 "//": "<%/REGION File header%>"                                                      "
 }
 {
-
-}
-{
   "//": "*! <%GTREE I Structure of the structure of the structure%>"
   "Structure_of_Structure_of_Structure": [
      {
@@ -439,8 +436,6 @@
 }
 
 {
-  "//": "*! <%GTREE III OIMS structure%>"
-  "//": "*! <%GTREE III.1 Metadata_schema%>"
   "Metadata_schema": [
      {
       "metadata_metadata": {
@@ -505,8 +500,7 @@
         ]
       }
     ]
-  "//": "*! <%GTREE III.2 Data_entity%>"
-  "Data_entity": [
+  "data_entity": [
       "metadata_metadata": [
           {
             "description":"",
