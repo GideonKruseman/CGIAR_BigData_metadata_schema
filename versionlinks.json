@@ -1,11 +1,11 @@
 {
 "//": "<%REGION File header%>"
 "//": " ============================================================================="
-"//": " File      : versionlinks.json                               "
+"//": " File      : versionlinks.json                                                "
 "//": " Author    : Gideon Kruseman (g.kruseman@cgiar.org)                           "
-"//": " Version   : 1.0                                                       "
-"//": " Date      : 5/3/2019 2:03:29 PM                                             "
-"//": " Changed   :                                                          "
+"//": " Version   : 1.0                                                              "
+"//": " Date      : 5/3/2019 2:03:29 PM                                              "
+"//": " Changed   : 5/3/2019 5:05:29 PM                                                                 "
 "//": " Changed by: Gideon Kruseman (g.kruseman@cgiar.org)                           "
 "//": " Remarks   :                                                                  "
 "//": "  1. Note that // as field name denotes a comment. We use this notation       "
@@ -31,7 +31,7 @@
           "SchemaType": "MetaDataSchemaStructureMetaData",
           "SchemaTypeVersion":"1.0",
           "description": "highest level description of OIMS components",
-          "URL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_MetaData_StructureOIMS_version_1_0.json"
+          "URL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_MetaData_StructureOIMS_version_1_0.json",
           "children": [
               {
                   "SchemaName":"OIMS",
@@ -47,7 +47,7 @@
           "SchemaType": "SchemaStructureMetaData",
           "SchemaTypeVersion":"1.0",
           "description": "highest level description of OIMS components",
-          "URL": "URL":"https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_StructureOIMS_version_1_0.json"
+          "URL": "URL":"https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_StructureOIMS_version_1_0.json",
           "children": [
               {
                   "SchemaName":"OIMS",
