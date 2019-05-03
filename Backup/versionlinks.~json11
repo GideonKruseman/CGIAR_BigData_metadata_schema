@@ -25,40 +25,20 @@
 }
 
 {
-   "MetaDatalinkages": [
+   "MetaData_StructureOIMS": [
       {
-          "SchemaName":"OIMS",
-          "SchemaType": "MetaDataSchemaStructureMetaData",
-          "SchemaTypeVersion":"1.0",
-          "description": "highest level description of OIMS components",
-          "URL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_MetaData_StructureOIMS_version_1_0.json"
-          "children": [
-              {
-                  "SchemaName":"OIMS",
-                  "SchemaType": "SchemaStructureMetaData",
-                  "SchemaTypeVersion":"1.0"
-                  "URL":"https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_StructureOIMS_version_1_0.json"
-              }
-
-          ]
-      },
-      {
-          "SchemaName":"OIMS",
           "SchemaType": "SchemaStructureMetaData",
-          "SchemaTypeVersion":"1.0",
           "description": "highest level description of OIMS components",
-          "URL": "URL":"https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/MetaData_StructureOIMS_version_1_0.json"
-          "children": [
+          "SchemaName": "MetaData_StructureOIMS",
+          "URL": ""
+          "version":"1.0"
+          "links" ; [
               {
-                  "SchemaName":"OIMS",
-                  "SchemaType": "SchemaStructure",
-                  "SchemaTypeVersion":"Beta 1.1.0"
-                  "URL":"https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/blob/master/StructureOIMSversionBeta1_1_0.json"
+
+
+
               }
 
           ]
-
       }
-
-   ]
-}
+}  ]

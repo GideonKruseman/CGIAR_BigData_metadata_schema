@@ -1,0 +1,590 @@
+{
+"//": "<%REGION File header%>"
+"//": " ============================================================================="
+"//": " File      : StructureOIMSversionBeta1_1_0.json                               "
+"//": " Author    : Gideon Kruseman (g.kruseman@cgiar.org)                           "
+"//": " Version   : 1.1.0                                                            "
+"//": " Date      : 4/29/2019 2:03:29 PM                                             "
+"//": " Changed   :                                                                  "
+"//": " Changed by:                                                                  "
+"//": " Remarks   :                                                                  "
+"//": "  1. Note that // as field name denotes a comment. We use this notation       "
+"//": " becauseJSON does not have a specific functionality for adding comments and we"
+"//": " feel that commenting is essential for making code transparent.               "
+"//": "  2. Note that we use GTREE notation to allow a structured view of the JSON   "
+"//": " metadata schema using the GTREE integrated developemnt environment          "
+"//": "                                                                              "
+"//": "                                                                              "
+"//": "                                                                              "
+"//": "                                                                              "
+"//": "                                                                              "
+"//": " ============================================================================="
+"//": "<%/REGION File header%>"                                                      "
+}
+{
+
+}
+{
+  "//": "*! <%GTREE I Structure of the structure of the structure%>"
+  "Structure_of_Structure_of_Structure": [
+     {
+      "//": "*! <%GTREE III.1 Description%>"
+      "Description": [
+         {
+           "//": "*! <%GTREE III.1.i Description%>"
+           "Description": "Describes the structure field identified by a short name with no spaces "                                                  "
+           "//": "*! <%GTREE III.1.ii Status%>"
+           "Status": "recommended if not self evident "
+           "//": "*! <%GTREE III.1.iii multiple%>"
+           "multiple": false
+           "//": "*! <%GTREE III.1.iv TypeClass%>"
+           "TypeClass": "primitive"
+         }
+      ]
+      "//": "*! <%GTREE III.2 DataType%> "  [
+         {
+           "//": "*! <%GTREE III.2.i Description%>"
+           "Description": "This explains the data type of a specific field of the structure"
+           "//": "*! <%GTREE III.2.ii Status%>"
+           "Status": "it is recommended to provide a data type for a specific field"
+           "//": "*! <%GTREE III.2.iii ControlledVocabulary%>                                     "
+           "//": "* Data type is a controlled vocabulary with the following options               "
+           "ControlledVocabulary": [
+              {
+                "//": "*! <%GTREE III.2.iii.i string%>                                                 "
+                "ElementName": "string",
+                "ElementDescription": "data type used to represent text",
+                "OntologyTerm" : [
+                   {
+                    "Ontology":"NCIT",
+                    "OntologyTerm":"string Data Type",
+                    "Ontologydefinition": "An expression consisting of a linear sequence of symbols (characters or words or phrases).",
+                    "OntologyURL": [
+                      {
+                         "URL":"http://purl.obolibrary.org/obo/NCIT_C45253"
+                      }
+                    ]
+                   }
+                ]
+              },
+              {
+                 "//": "*! <%GTREE III.2.iii.ii enumeration%>                                                "
+                "ElementName": "enumeration",
+                "ElementDescription": "In computer programming, an enumerated type (also called enumeration, enum, or factor in the R programming language, and a categorical variable in statistics) is a data type consisting of a set of named values called elements, members, enumeral, or enumerators of the type. ",
+                "OntologyTerm" : [
+                   {
+                    "Ontology":"NCIT",
+                    "OntologyTerm":"Discrete Set Code Data Type",
+                    "Ontologydefinition": "A data type comprised of a collection of a discrete set of coded values that are distinct.",
+                    "OntologyURL": [
+                      {
+                         "URL":"http://purl.obolibrary.org/obo/NCIT_C95644"
+                      }
+                    ]
+                   }
+                ]
+              },
+              {
+                "//": "*! <%GTREE III.2.iii.iii Numeric%>                                              "
+                "ElementName": "numeric",
+                "ElementDescription": "Information in the form of a numeral contained in a data field.",
+                "OntologyTerm" : [
+                   {
+                    "Ontology":"NCIT",
+                    "OntologyTerm":"numeric value",
+                    "Ontologydefinition": "Information in the form of a numeral contained in a data field.",
+                    "OntologyURL": [
+                      {
+                         "URL":"http://purl.obolibrary.org/obo/NCIT_C81274"
+                      }
+                    ]
+                   }
+                ]
+              },
+              {
+                "//": "*! <%GTREE III.2.iii.iii.i integer%>                                            "
+                "ElementName": "",
+                "ElementDescription": "",
+                "OntologyTerm" : [
+                   {
+                    "Ontology":"",
+                    "OntologyTerm":"",
+                    "Ontologydefinition": "",
+                    "OntologyURL": [
+                      {
+                         "URL":""
+                      }
+                    ]
+                   }
+                ]
+              },
+              {
+                "//": "*! <%GTREE III.2.iii.iii.ii float%>                                             "
+                "ElementName": "",
+                "ElementDescription": "",
+                "OntologyTerm" : [
+                   {
+                    "Ontology":"",
+                    "OntologyTerm":"",
+                    "Ontologydefinition": "",
+                    "OntologyURL": [
+                      {
+                         "URL":""
+                      }
+                    ]
+                   }
+                ]
+              },
+              {
+                "//": "*! <%GTREE III.2.iii.iv URL%>                                                   "
+                "ElementName": "",
+                "ElementDescription": "",
+                "OntologyTerm" : [
+                   {
+                    "Ontology":"",
+                    "OntologyTerm":"",
+                    "Ontologydefinition": "",
+                    "OntologyURL": [
+                      {
+                         "URL":""
+                      }
+                    ]
+                   }
+                ]
+              }
+
+           ]
+           "//": "*! <%GTREE III.2.iv multiple%>                                                  "
+           "//": "* false                                                                         "
+           "//": "*! <%GTREE III.2.v TypeClass%>                                                  "
+           "//": "* primitive                                                                     "
+
+
+         }
+      ]
+
+      "//": "*! <%GTREE III.3 Format%>                                                       "
+      "//": "*! <%GTREE III.3.i Description%>                                                "
+      "//": "* If a specific field of the structure has a specific format you can provide it "
+      "//": "*! <%GTREE III.3.ii Status%>                                                    "
+      "//": "* only if applicable                                                            "
+      "//": "*! <%GTREE III.3.iii multiple%>                                                 "
+      "//": "* false                                                                         "
+      "//": "*! <%GTREE III.3.iv TypeClass%>                                                 "
+      "//": "* primitive                                                                     "
+
+      "//": "*! <%GTREE III.4 ControlledVocabulary%>                                         "
+      "//": "*! <%GTREE III.4.i Description%>                                                "
+      "//": "* If a specific field of the structure is a controlled vocabulary the elements should be provided"
+      "//": "*! <%GTREE III.4.ii Status%>                                                    "
+      "//": "* only if applicable if datatype <= factor                                      "
+      "//": "*! <%GTREE III.4.iii multiple%>                                                 "
+      "//": "* true                                                                          "
+      "//": "*! <%GTREE III.4.iv TypeClass%>                                                 "
+      "//": "* compound                                                                      "
+
+      "//": "*! <%GTREE III.4.1 ElementName%>                                         "
+      "//": "*! <%GTREE III.4.1.i Description%>                                                "
+      "//": "* The identifier of the controled vocabulary element"
+      "//": "*! <%GTREE III.4.1.ii Status%>                                                    "
+      "//": "* required                                      "
+      "//": "*! <%GTREE III.4.1.iii multiple%>                                                 "
+      "//": "* false                                                                          "
+      "//": "*! <%GTREE III.4.1.iv TypeClass%>                                                 "
+      "//": "* primitive                                                                      "
+
+      "//": "*! <%GTREE III.4.2 ElementDescription%>                                         "
+      "//": "*! <%GTREE III.4.2.i Description%>                                                "
+      "//": "* Descriptionof the controled vocabulary element"
+      "//": "*! <%GTREE III.4.2.ii Status%>                                                    "
+      "//": "* recommended                                      "
+      "//": "*! <%GTREE III.4.2.iii multiple%>                                                 "
+      "//": "* false                                                                          "
+      "//": "*! <%GTREE III.4.2.iv TypeClass%>                                                 "
+      "//": "* primitive                                                                      "
+
+      "//": "*! <%GTREE III.4.3 OntologyTerm%>                                         "
+      "//": "*! <%GTREE III.4.3.i Description%>                                                "
+      "//": "* Ontology terms describing the element"
+      "//": "*! <%GTREE III.4.3.ii Status%>                                                    "
+      "//": "* recommended                                      "
+      "//": "*! <%GTREE III.4.3.iii multiple%>                                                 "
+      "//": "* true                                                                          "
+      "//": "*! <%GTREE III.4.3.iv TypeClass%>                                                 "
+      "//": "* false                                                                      "
+
+      "//": "*! <%GTREE III.5 Multiple%>                                                     "
+      "//": "*! <%GTREE III.5.i Description%>                                                "
+      "//": "* If a specific field of the structure can have multiple values. This does not  "
+      "//": "* mean it has to have multiple values                                           "
+      "//": "*! <%GTREE III.5.ii Status%>                                                    "
+      "//": "* required                                                                      "
+      "//": "*! <%GTREE III.5.iii controlled vocabulary%>                                    "
+      "//": "*! <%GTREE III.5.iii.i true%>                                                   "
+      "//": "*! <%GTREE III.5.iii.ii false%>                                                 "
+      "//": "*! <%GTREE III.5.iv multiple%>                                                  "
+      "//": "* false                                                                         "
+      "//": "*! <%GTREE III.5.v TypeClass%>                                                  "
+      "//": "* primitive                                                                     "
+
+      "//": "*! <%GTREE III.6 TypeClass%>                                                    "
+      "//": "* If a specific field of the structure can is a single element or has compound elements  "
+      "//": "*! <%GTREE III.6.ii Status%>                                                    "
+      "//": "* required                                                                      "
+      "//": "*! <%GTREE III.6.iii controlled vocabulary%>                                    "
+      "//": "*! <%GTREE III.6.iii.i primitive%>                                              "
+      "//": "* single element                                                                "
+      "//": "*! <%GTREE III.6.iii.ii compound%>                                              "
+      "//": "* composite structure                                                           "
+      "//": "*! <%GTREE III.6.iv multiple%>                                                  "
+      "//": "* false                                                                         "
+      "//": "*! <%GTREE III.6.v TypeClass%>                                                  "
+      "//": "* primitive                                                                     "
+
+      "//": "*! <%GTREE III.7 Status%>"
+      "//": "*! <%GTREE III.7.i Description%>"
+      "//": "* If a specific field of the structure is required, recommended, if applicable, optional"
+      "//": "*! <%GTREE III.7.ii Status%>"
+      "//": "* required  "
+      "//": "*! <%GTREE III.7.iii controlled vocabulary%>"
+      "//": "*! <%GTREE III.7.iii.i required%>"
+      "//": "* the specific field of the structure is always needed"
+      "//": "*! <%GTREE III.7.iii.ii recommended%>"
+      "//": "* the specific field of the structure is not strictly needed but is highly recommended"
+      "//": "*! <%GTREE III.7.iii.iii if applicable%>"
+      "//": "* the specific field of the structure is only used if applicable "
+      "//": "*! <%GTREE III.7.iii.iv optional%>"
+      "//": "* the specific field of the structure is not needed but optional  "
+      "//": "*! <%GTREE III.7.iv multiple%> "
+      "//": "* false   "
+      "//": "*! <%GTREE III.7.v TypeClass%>  "
+      "//": "* primitive "
+
+      "//": "*! <%GTREE III.8 OntologyTerm%>"
+      "//": "*! <%GTREE III.8.i Description%>"
+      "//": "* If an ontology term is available that describes the field"
+      "//": "*! <%GTREE III.8.ii Status%>"
+      "//": "* recommended  "
+      "//": "*! <%GTREE III.8.iii multiple%> "
+      "//": "* true   "
+      "//": "*! <%GTREE III.8.iv TypeClass%>  "
+      "//": "* compund "
+
+      "//": "*! <%GTREE III.8.1 Ontology%>"
+      "//": "*! <%GTREE III.8.1.i Description%>"
+      "//": "* Name of the ontology used"
+      "//": "*! <%GTREE III.8.1.ii Status%>"
+      "//": "* required  "
+      "//": "*! <%GTREE III.8.1.iii multiple%> "
+      "//": "* false   "
+      "//": "*! <%GTREE III.8.1.iv TypeClass%>  "
+      "//": "* primitive "
+
+      "//": "*! <%GTREE III.8 OntologyTerm%>"
+      "//": "*! <%GTREE III.8.i Description%>"
+      "//": "* the actual ontology term"
+      "//": "*! <%GTREE III.8.ii Status%>"
+      "//": "* required  "
+      "//": "*! <%GTREE III.8.iii multiple%> "
+      "//": "* false   "
+      "//": "*! <%GTREE III.8.iv TypeClass%>  "
+      "//": "* primitive "
+
+      "//": "*! <%GTREE III.8 OntologyTermURL%>"
+      "//": "*! <%GTREE III.8.i Description%>"
+      "//": "* URL of the ontology term"
+      "//": "*! <%GTREE III.8.ii Status%>"
+      "//": "* required  "
+      "//": "*! <%GTREE III.8.iii multiple%> "
+      "//": "* true   "
+      "//": "*! <%GTREE III.8.iv TypeClass%>  "
+      "//": "* primitive "
+     }
+
+  ]
+
+
+}
+{
+  "//": "*! <%GTREE II structure of the structure%>"
+  "Structure_of_Structure_of_Structure": [
+     {
+      "//": "*! <%GTREE II.1 FieldName%>"
+      "FieldName": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.2 FieldDescription%>"
+      "FieldDescription": [
+         {
+           "Description": "the name of the metadata field",
+           "DataType": "alphanumeric",
+           "Multiple": false,
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.3 Status%>"
+      "Status": [
+         {
+           "Description": ""
+           "DataType": "factor"
+           "ControledVocabulary": [
+              {
+               "ElementName":
+               "ElementDescription":
+              }
+           ]
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.4 DataType%>"
+      "DataType": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.5 Format%>"
+      "Format": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.6 ControledVocabulary%>"
+      "ControledVocabulary": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": true
+           "TypeClass":"compound"
+         }
+      ]
+      "//": "*! <%GTREE II.6.1 ElementName%>"
+      "ElementName": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.6.2 ElementDescription%>"
+      "ElementCDescription": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.7 Multiple%>"
+      "Multiple": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.8 TypeClass%>"
+      "TypeClass": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.9 DefaultValue%>"
+      "DefaultValue": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.10 Value%>"
+      "Value": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+
+
+
+}
+
+{
+  "Metadata_schema": [
+     {
+      "metadata_metadata": {
+        "status": "required",
+        "description":"metadata related to the metadata schema itself",
+        "multiple": false,
+        "typeClass": "compound",
+        "//":"the metadata of the metadata schema provides crucial information to any ETL procedure or API that uses the emtadata to access data. This metadata section provides the key to how the metadata file should be read"
+        }
+      "value": {
+        "SchemaName": [
+          {
+            "metadata_metadata": {
+               "description":"name of the metadata schema",
+               "status": "required",
+               "multiple": false,
+               "typeClass": "primitive",
+               "data_type": "string",
+               "format":  "Alphanumeric",
+               "//": "versioning of the metadata schema is very important"
+             }
+           "value":"OIMS"
+          }
+        ]
+        "version": [
+          {
+            "metadata_metadata": {
+               "description":"version of the metadata schema",
+               "status": "required",
+               "multiple": false,
+               "typeClass": "primitive",
+               "data_type": "string",
+               "format":  "[{Alpha,Beta}] #.#.#",
+               "//": "versioning of the metadata schema is very important"
+             }
+           "value":"Beta 1.1.0"
+          }
+        ]
+        "schema_URL": [
+          {
+            "metadata_metadata": {
+               "description":"URL where the schema can be found",
+               "status": "optional",
+               "multiple": false,
+               "typeClass": "primitive",
+               "data_type": "URL",
+               "//": "if a website exists that describes the schema this could be provided here."
+              }
+          }
+        ]
+        "schema_documentation_URL": [
+          {
+            "metadata_metadata": {
+               "description":"link to schema documentation",
+               "status": "optional",
+               "multiple": false,
+               "typeClass": "primitive",
+               "data_type": "URL",
+               "//": "a link to the documentation related to the metadata schema should be provided if available. Ideally this is a persistent identifier"
+              }
+          }
+        ]
+      }
+    ]
+  "data_entity": [
+      "metadata_metadata": [
+          {
+            "description":"",
+            "status": "required",
+            "multiple": true,
+            "typeClass": "compound",
+            "//": "versioning of the metadata schema is very important"
+          }
+      ]
+      "value": {
+        "OIMS_level": [
+          {
+            "description":"version of the metadata schema",
+            "status": "required",
+            "multiple": false,
+            "typeClass": "primitive",
+            "classtype":"controlled vocabulary",
+            "controlled_vocabulary": [
+              {
+                "element": "1",
+                "description": "study or collection",
+                "//": "top OIMS level that can have sub levels. A study or collection is a grouping of data entities that belong together. A collection is meant for human structuring, hence data entities can belong to different collections. In general, it is a virtual structure. I can contain but does not necessarily need extensive descriptive metadata"
+              },
+              {
+                "element": "2",
+                "description": "components of collections, namely data sets and supporting files related to the collection as a whole.",
+                "//": "data set is usually the basis for looking at data. Dataverse and Gardian for instance use data sets as their point of entry. Collection level documentation files or support files",
+              },
+              {
+                "element": "3",
+                "description": "components of a data set such as: a data file which is basic part of a data set, also supporting documentation and classification and concordance files",
+                "//": "data file",
+              },
+              {
+                "element": "4",
+                "description": "a data file component at a relevant high level within a data file such as tables",
+                "//": "data file",
+              },
+              {
+                "element": "5",
+                "description": "a data file component is a relevant low level within a data file such as variable",
+                "//": "data file",
+              }
+            ]
+            "data_type": "integer",
+            "//": ""
+          }
+        ],
+        "OIMS_element": [
+          {
+            "description":"element of the level"
+            "classtype":"controlled vocabulary"
+            "controlled_vocabulary": [
+              {
+                "element": "metadata",
+                "description": "json file describing the OIMS-level data entity",
+                "//": ""
+              },
+              {
+                "element": "Primary",
+                "description": "primary data entity",
+                "//": "this is another data entity one level deeper "
+              },
+              {
+                "element": "secondary",
+                "description": "secondatry data entity: ",
+                "//": "this is an essential data entity "
+              },
+              {
+                "element": "tertiary",
+                "description": "tertiary data entity: support documents",
+                "//": ""
+              }
+
+            ]
+          }
+        ]
+      }
+
+
+
+
+
+}
