@@ -1,0 +1,171 @@
+{
+"//": "<%REGION File header%>"
+"//": " ============================================================================="
+"//": " File      : MetaData_StructureOIMS_version_1_0.json                               "
+"//": " Author    : Gideon Kruseman (g.kruseman@cgiar.org)                           "
+"//": " Version   : 1.0                                                       "
+"//": " Date      : 5/3/2019 2:03:29 PM                                             "
+"//": " Changed   :                                                          "
+"//": " Changed by: Gideon Kruseman (g.kruseman@cgiar.org)                           "
+"//": " Remarks   :                                                                  "
+"//": "  1. Note that // as field name denotes a comment. We use this notation       "
+"//": " becauseJSON does not have a specific functionality for adding comments and we"
+"//": " feel that commenting is essential for making code transparent.               "
+"//": "  2. Note that we use GTREE notation to allow a structured view of the JSON   "
+"//": " metadata schema using the GTREE integrated developemnt environment           "
+"//": " https://www.wecr.wur.nl/gamstools/index.htm                                  "
+"//": "                                                                              "
+"//": "*! <%GTREE 0 Documentation%>"                                                 "
+"//": "   the structure of the structure of the metadata schema has the following    "
+"//": "   characteristics:                                                           "
+"//": "      1.                                                                      "
+"//": "                                                                              "
+"//": " ============================================================================="
+"//": "<%/REGION File header%>"                                                      "
+}
+{
+  "//": "*! <%GTREE I MetaData schema information%>"
+  "Metadata_schema": [
+     {
+       "SchemaName":"OIMS",
+       "versionlinks": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/versionlinks.json"
+       "schema_URL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master",
+       "schema_documentation_URL": "",
+       "SchemaType": "SchemaStructureMetaData",
+       "SchemaTypeVersion": "1.0"
+     }
+  ]
+}
+
+{
+  "//": "*! <%GTREE II structure of the structure%>"
+  "Structure_of_Structure_of_Structure": [
+     {
+      "//": "*! <%GTREE II.1 FieldName%>"
+      "FieldName": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.2 FieldDescription%>"
+      "FieldDescription": [
+         {
+           "Description": "the name of the metadata field",
+           "DataType": "alphanumeric",
+           "Multiple": false,
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.3 Status%>"
+      "Status": [
+         {
+           "Description": ""
+           "DataType": "factor"
+           "ControledVocabulary": [
+              {
+               "ElementName":
+               "ElementDescription":
+              }
+           ]
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.4 DataType%>"
+      "DataType": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.5 Format%>"
+      "Format": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.6 ControledVocabulary%>"
+      "ControledVocabulary": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": true
+           "TypeClass":"compound"
+         }
+      ]
+      "//": "*! <%GTREE II.6.1 ElementName%>"
+      "ElementName": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.6.2 ElementDescription%>"
+      "ElementCDescription": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.7 Multiple%>"
+      "Multiple": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.8 TypeClass%>"
+      "TypeClass": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.9 DefaultValue%>"
+      "DefaultValue": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+      "//": "*! <%GTREE II.10 Value%>"
+      "Value": [
+         {
+           "Description":
+           "DataType":
+           "Format":
+           "Multiple": false
+           "TypeClass":"primitive"
+         }
+      ]
+
+
+
+}
