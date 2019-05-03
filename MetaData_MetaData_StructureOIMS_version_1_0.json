@@ -25,7 +25,7 @@
 }
 {
   "//": "*! <%GTREE I MetaData schema information%>"
-  "Metadata_schema": [
+  "MetadataSchema": [
      {
        "SchemaName":"OIMS",
        "versionlinks": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/versionlinks.json"
@@ -41,30 +41,30 @@
   "//": "*! <%GTREE II Structure of the structure of the structure%>"
   "Structure_of_Structure_of_Structure": [
      {
-      "//": "*! <%GTREE III.1 Description%>"
+      "//": "*! <%GTREE II.1 Description%>"
       "Description": [
          {
-           "//": "*! <%GTREE III.1.i Description%>"
+           "//": "*! <%GTREE II.1.i Description%>"
            "Description": "Describes the structure field identified by a short name with no spaces "                                                  "
-           "//": "*! <%GTREE III.1.ii Status%>"
+           "//": "*! <%GTREE II.1.ii Status%>"
            "Status": "recommended if not self evident "
-           "//": "*! <%GTREE III.1.iii multiple%>"
+           "//": "*! <%GTREE II.1.iii multiple%>"
            "multiple": false
-           "//": "*! <%GTREE III.1.iv TypeClass%>"
+           "//": "*! <%GTREE II.1.iv TypeClass%>"
            "TypeClass": "primitive"
          }
       ]
-      "//": "*! <%GTREE III.2 DataType%> "  [
+      "//": "*! <%GTREE II.2 DataType%> "  [
          {
-           "//": "*! <%GTREE III.2.i Description%>"
+           "//": "*! <%GTREE II.2.i Description%>"
            "Description": "This explains the data type of a specific field of the structure"
-           "//": "*! <%GTREE III.2.ii Status%>"
+           "//": "*! <%GTREE II.2.ii Status%>"
            "Status": "it is recommended to provide a data type for a specific field"
-           "//": "*! <%GTREE III.2.iii ControlledVocabulary%>                                     "
+           "//": "*! <%GTREE II.2.iii ControlledVocabulary%>                                     "
            "//": "* Data type is a controlled vocabulary with the following options               "
            "ControlledVocabulary": [
               {
-                "//": "*! <%GTREE III.2.iii.i string%>                                                 "
+                "//": "*! <%GTREE II.2.iii.i string%>                                                 "
                 "ElementName": "string",
                 "ElementDescription": "data type used to represent text",
                 "OntologyTerm" : [
@@ -81,7 +81,7 @@
                 ]
               },
               {
-                 "//": "*! <%GTREE III.2.iii.ii enumeration%>                                                "
+                 "//": "*! <%GTREE II.2.iii.ii enumeration%>                                                "
                 "ElementName": "enumeration",
                 "ElementDescription": "In computer programming, an enumerated type (also called enumeration, enum, or factor in the R programming language, and a categorical variable in statistics) is a data type consisting of a set of named values called elements, members, enumeral, or enumerators of the type. ",
                 "OntologyTerm" : [
@@ -98,7 +98,7 @@
                 ]
               },
               {
-                "//": "*! <%GTREE III.2.iii.iii Numeric%>                                              "
+                "//": "*! <%GTREE II.2.iii.iii Numeric%>                                              "
                 "ElementName": "numeric",
                 "ElementDescription": "Information in the form of a numeral contained in a data field.",
                 "OntologyTerm" : [
@@ -115,7 +115,7 @@
                 ]
               },
               {
-                "//": "*! <%GTREE III.2.iii.iii.i integer%>                                            "
+                "//": "*! <%GTREE II.2.iii.iii.i integer%>                                            "
                 "ElementName": "",
                 "ElementDescription": "",
                 "OntologyTerm" : [
@@ -132,7 +132,7 @@
                 ]
               },
               {
-                "//": "*! <%GTREE III.2.iii.iii.ii float%>                                             "
+                "//": "*! <%GTREE II.2.iii.iii.ii float%>                                             "
                 "ElementName": "",
                 "ElementDescription": "",
                 "OntologyTerm" : [
@@ -149,7 +149,7 @@
                 ]
               },
               {
-                "//": "*! <%GTREE III.2.iii.iv URL%>                                                   "
+                "//": "*! <%GTREE II.2.iii.iv URL%>                                                   "
                 "ElementName": "",
                 "ElementDescription": "",
                 "OntologyTerm" : [
@@ -167,154 +167,151 @@
               }
 
            ]
-           "//": "*! <%GTREE III.2.iv multiple%>                                                  "
+           "//": "*! <%GTREE II.2.iv multiple%>                                                  "
            "//": "* false                                                                         "
-           "//": "*! <%GTREE III.2.v TypeClass%>                                                  "
+           "//": "*! <%GTREE II.2.v TypeClass%>                                                  "
            "//": "* primitive                                                                     "
 
 
          }
       ]
 
-      "//": "*! <%GTREE III.3 Format%>                                                       "
-      "//": "*! <%GTREE III.3.i Description%>                                                "
+      "//": "*! <%GTREE II.3 Format%>                                                       "
+      "//": "*! <%GTREE II.3.i Description%>                                                "
       "//": "* If a specific field of the structure has a specific format you can provide it "
-      "//": "*! <%GTREE III.3.ii Status%>                                                    "
+      "//": "*! <%GTREE II.3.ii Status%>                                                    "
       "//": "* only if applicable                                                            "
-      "//": "*! <%GTREE III.3.iii multiple%>                                                 "
+      "//": "*! <%GTREE II.3.iii multiple%>                                                 "
       "//": "* false                                                                         "
-      "//": "*! <%GTREE III.3.iv TypeClass%>                                                 "
+      "//": "*! <%GTREE II.3.iv TypeClass%>                                                 "
       "//": "* primitive                                                                     "
 
-      "//": "*! <%GTREE III.4 ControlledVocabulary%>                                         "
-      "//": "*! <%GTREE III.4.i Description%>                                                "
+      "//": "*! <%GTREE II.4 ControlledVocabulary%>                                         "
+      "//": "*! <%GTREE II.4.i Description%>                                                "
       "//": "* If a specific field of the structure is a controlled vocabulary the elements should be provided"
-      "//": "*! <%GTREE III.4.ii Status%>                                                    "
+      "//": "*! <%GTREE II.4.ii Status%>                                                    "
       "//": "* only if applicable if datatype <= factor                                      "
-      "//": "*! <%GTREE III.4.iii multiple%>                                                 "
+      "//": "*! <%GTREE II.4.iii multiple%>                                                 "
       "//": "* true                                                                          "
-      "//": "*! <%GTREE III.4.iv TypeClass%>                                                 "
+      "//": "*! <%GTREE II.4.iv TypeClass%>                                                 "
       "//": "* compound                                                                      "
 
-      "//": "*! <%GTREE III.4.1 ElementName%>                                         "
-      "//": "*! <%GTREE III.4.1.i Description%>                                                "
+      "//": "*! <%GTREE II.4.1 ElementName%>                                         "
+      "//": "*! <%GTREE II.4.1.i Description%>                                                "
       "//": "* The identifier of the controled vocabulary element"
-      "//": "*! <%GTREE III.4.1.ii Status%>                                                    "
+      "//": "*! <%GTREE II.4.1.ii Status%>                                                    "
       "//": "* required                                      "
-      "//": "*! <%GTREE III.4.1.iii multiple%>                                                 "
+      "//": "*! <%GTREE II.4.1.iii multiple%>                                                 "
       "//": "* false                                                                          "
-      "//": "*! <%GTREE III.4.1.iv TypeClass%>                                                 "
+      "//": "*! <%GTREE II.4.1.iv TypeClass%>                                                 "
       "//": "* primitive                                                                      "
 
-      "//": "*! <%GTREE III.4.2 ElementDescription%>                                         "
-      "//": "*! <%GTREE III.4.2.i Description%>                                                "
+      "//": "*! <%GTREE II.4.2 ElementDescription%>                                         "
+      "//": "*! <%GTREE II.4.2.i Description%>                                                "
       "//": "* Descriptionof the controled vocabulary element"
-      "//": "*! <%GTREE III.4.2.ii Status%>                                                    "
+      "//": "*! <%GTREE II.4.2.ii Status%>                                                    "
       "//": "* recommended                                      "
-      "//": "*! <%GTREE III.4.2.iii multiple%>                                                 "
+      "//": "*! <%GTREE II.4.2.iii multiple%>                                                 "
       "//": "* false                                                                          "
-      "//": "*! <%GTREE III.4.2.iv TypeClass%>                                                 "
+      "//": "*! <%GTREE II.4.2.iv TypeClass%>                                                 "
       "//": "* primitive                                                                      "
 
-      "//": "*! <%GTREE III.4.3 OntologyTerm%>                                         "
-      "//": "*! <%GTREE III.4.3.i Description%>                                                "
+      "//": "*! <%GTREE II.4.3 OntologyTerm%>                                         "
+      "//": "*! <%GTREE II.4.3.i Description%>                                                "
       "//": "* Ontology terms describing the element"
-      "//": "*! <%GTREE III.4.3.ii Status%>                                                    "
+      "//": "*! <%GTREE II.4.3.ii Status%>                                                    "
       "//": "* recommended                                      "
-      "//": "*! <%GTREE III.4.3.iii multiple%>                                                 "
+      "//": "*! <%GTREE II.4.3.iii multiple%>                                                 "
       "//": "* true                                                                          "
-      "//": "*! <%GTREE III.4.3.iv TypeClass%>                                                 "
+      "//": "*! <%GTREE II.4.3.iv TypeClass%>                                                 "
       "//": "* false                                                                      "
 
-      "//": "*! <%GTREE III.5 Multiple%>                                                     "
-      "//": "*! <%GTREE III.5.i Description%>                                                "
+      "//": "*! <%GTREE II.5 Multiple%>                                                     "
+      "//": "*! <%GTREE II.5.i Description%>                                                "
       "//": "* If a specific field of the structure can have multiple values. This does not  "
       "//": "* mean it has to have multiple values                                           "
-      "//": "*! <%GTREE III.5.ii Status%>                                                    "
+      "//": "*! <%GTREE II.5.ii Status%>                                                    "
       "//": "* required                                                                      "
-      "//": "*! <%GTREE III.5.iii controlled vocabulary%>                                    "
-      "//": "*! <%GTREE III.5.iii.i true%>                                                   "
-      "//": "*! <%GTREE III.5.iii.ii false%>                                                 "
-      "//": "*! <%GTREE III.5.iv multiple%>                                                  "
+      "//": "*! <%GTREE II.5.iii controlled vocabulary%>                                    "
+      "//": "*! <%GTREE II.5.iii.i true%>                                                   "
+      "//": "*! <%GTREE II.5.iii.ii false%>                                                 "
+      "//": "*! <%GTREE II.5.iv multiple%>                                                  "
       "//": "* false                                                                         "
-      "//": "*! <%GTREE III.5.v TypeClass%>                                                  "
+      "//": "*! <%GTREE II.5.v TypeClass%>                                                  "
       "//": "* primitive                                                                     "
 
-      "//": "*! <%GTREE III.6 TypeClass%>                                                    "
+      "//": "*! <%GTREE II.6 TypeClass%>                                                    "
       "//": "* If a specific field of the structure can is a single element or has compound elements  "
-      "//": "*! <%GTREE III.6.ii Status%>                                                    "
+      "//": "*! <%GTREE II.6.ii Status%>                                                    "
       "//": "* required                                                                      "
-      "//": "*! <%GTREE III.6.iii controlled vocabulary%>                                    "
-      "//": "*! <%GTREE III.6.iii.i primitive%>                                              "
+      "//": "*! <%GTREE II.6.iii controlled vocabulary%>                                    "
+      "//": "*! <%GTREE II.6.iii.i primitive%>                                              "
       "//": "* single element                                                                "
-      "//": "*! <%GTREE III.6.iii.ii compound%>                                              "
+      "//": "*! <%GTREE II.6.iii.ii compound%>                                              "
       "//": "* composite structure                                                           "
-      "//": "*! <%GTREE III.6.iv multiple%>                                                  "
+      "//": "*! <%GTREE II.6.iv multiple%>                                                  "
       "//": "* false                                                                         "
-      "//": "*! <%GTREE III.6.v TypeClass%>                                                  "
+      "//": "*! <%GTREE II.6.v TypeClass%>                                                  "
       "//": "* primitive                                                                     "
 
-      "//": "*! <%GTREE III.7 Status%>"
-      "//": "*! <%GTREE III.7.i Description%>"
+      "//": "*! <%GTREE II.7 Status%>"
+      "//": "*! <%GTREE II.7.i Description%>"
       "//": "* If a specific field of the structure is required, recommended, if applicable, optional"
-      "//": "*! <%GTREE III.7.ii Status%>"
+      "//": "*! <%GTREE II.7.ii Status%>"
       "//": "* required  "
-      "//": "*! <%GTREE III.7.iii controlled vocabulary%>"
-      "//": "*! <%GTREE III.7.iii.i required%>"
+      "//": "*! <%GTREE II.7.iii controlled vocabulary%>"
+      "//": "*! <%GTREE II.7.iii.i required%>"
       "//": "* the specific field of the structure is always needed"
-      "//": "*! <%GTREE III.7.iii.ii recommended%>"
+      "//": "*! <%GTREE II.7.iii.ii recommended%>"
       "//": "* the specific field of the structure is not strictly needed but is highly recommended"
-      "//": "*! <%GTREE III.7.iii.iii if applicable%>"
+      "//": "*! <%GTREE II.7.iii.iii if applicable%>"
       "//": "* the specific field of the structure is only used if applicable "
-      "//": "*! <%GTREE III.7.iii.iv optional%>"
+      "//": "*! <%GTREE II.7.iii.iv optional%>"
       "//": "* the specific field of the structure is not needed but optional  "
-      "//": "*! <%GTREE III.7.iv multiple%> "
+      "//": "*! <%GTREE II.7.iv multiple%> "
       "//": "* false   "
-      "//": "*! <%GTREE III.7.v TypeClass%>  "
+      "//": "*! <%GTREE II.7.v TypeClass%>  "
       "//": "* primitive "
 
-      "//": "*! <%GTREE III.8 OntologyTerm%>"
-      "//": "*! <%GTREE III.8.i Description%>"
+      "//": "*! <%GTREE II.8 OntologyTerm%>"
+      "//": "*! <%GTREE II.8.i Description%>"
       "//": "* If an ontology term is available that describes the field"
-      "//": "*! <%GTREE III.8.ii Status%>"
+      "//": "*! <%GTREE II.8.ii Status%>"
       "//": "* recommended  "
-      "//": "*! <%GTREE III.8.iii multiple%> "
+      "//": "*! <%GTREE II.8.iii multiple%> "
       "//": "* true   "
-      "//": "*! <%GTREE III.8.iv TypeClass%>  "
+      "//": "*! <%GTREE II.8.iv TypeClass%>  "
       "//": "* compund "
 
-      "//": "*! <%GTREE III.8.1 Ontology%>"
-      "//": "*! <%GTREE III.8.1.i Description%>"
+      "//": "*! <%GTREE II.8.1 Ontology%>"
+      "//": "*! <%GTREE II.8.1.i Description%>"
       "//": "* Name of the ontology used"
-      "//": "*! <%GTREE III.8.1.ii Status%>"
+      "//": "*! <%GTREE II.8.1.ii Status%>"
       "//": "* required  "
-      "//": "*! <%GTREE III.8.1.iii multiple%> "
+      "//": "*! <%GTREE II.8.1.iii multiple%> "
       "//": "* false   "
-      "//": "*! <%GTREE III.8.1.iv TypeClass%>  "
+      "//": "*! <%GTREE II.8.1.iv TypeClass%>  "
       "//": "* primitive "
 
-      "//": "*! <%GTREE III.8.2 OntologyTerm%>"
-      "//": "*! <%GTREE III.8.2.i Description%>"
+      "//": "*! <%GTREE II.8.2 OntologyTerm%>"
+      "//": "*! <%GTREE II.8.2.i Description%>"
       "//": "* the actual ontology term"
-      "//": "*! <%GTREE III.8.2.ii Status%>"
+      "//": "*! <%GTREE II.8.2.ii Status%>"
       "//": "* required  "
-      "//": "*! <%GTREE III.8.2.iii multiple%> "
+      "//": "*! <%GTREE II.8.2.iii multiple%> "
       "//": "* false   "
-      "//": "*! <%GTREE III.8.2.iv TypeClass%>  "
+      "//": "*! <%GTREE II.8.2.iv TypeClass%>  "
       "//": "* primitive "
 
-      "//": "*! <%GTREE III.8.3 OntologyTermURL%>"
-      "//": "*! <%GTREE III.8.3.i Description%>"
+      "//": "*! <%GTREE II.8.3 OntologyTermURL%>"
+      "//": "*! <%GTREE II.8.3.i Description%>"
       "//": "* URL of the ontology term"
-      "//": "*! <%GTREE III.8.3.ii Status%>"
+      "//": "*! <%GTREE II.8.3.ii Status%>"
       "//": "* required  "
-      "//": "*! <%GTREE III.8.3.iii multiple%> "
+      "//": "*! <%GTREE II.8.3.iii multiple%> "
       "//": "* true   "
-      "//": "*! <%GTREE III.8.3.iv TypeClass%>  "
+      "//": "*! <%GTREE II.8.3.iv TypeClass%>  "
       "//": "* primitive "
      }
-
   ]
-
-
 }
