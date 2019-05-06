@@ -1,7 +1,7 @@
 # CGIAR_BigData_metadata_schema
 human-readable, machine-actionable flexible and extensible, ontology-independent metadata schema focused on making messy socio-economic data FAIRER
 
-We want to Launch the metadata schema as soon as possible so we are moving forward with the OIMS metad data schema development
+We want to Launch the metadata schema as soon as possible so we are moving forward with the OIMS metadata schema development
 
 StructureOIMSversionBeta1_1_0.json is the version of late April 2019 but is not generic enough and is missing out some crucial details.
 StructureOIMSversionBeta1_1_1.json is the version of early May 2019 and we intend to use this as the test case. This describes the metadata schema
