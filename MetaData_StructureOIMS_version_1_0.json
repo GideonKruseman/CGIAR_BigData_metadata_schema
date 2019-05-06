@@ -64,7 +64,7 @@
       "Status": [
          {
            "Description": ""
-           "DataType": "factor"
+           "DataType": "enumeration"
            "ControledVocabulary": [
               {
                "ElementName":
