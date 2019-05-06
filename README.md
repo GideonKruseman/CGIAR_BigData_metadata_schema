@@ -26,10 +26,10 @@ https://github.com/GideonKruseman/OIMS_examples
 6. Documentation
 
 # Remarks   :                                                                  
- 1. Note that // as field name denotes a comment. We use this notation because JSON does not have a specific functionality for adding comments and we feel that commenting is essential for making code transparent.               
+ 1. Note that within the JSON files "//" as field name denotes a comment. We use this notation because JSON does not have a specific functionality for adding comments and we feel that commenting is essential for making code transparent.               
  2. Note that we use GTREE notation to allow a structured view of the JSON metadata schema using the GTREE integrated development environment:           
 https://www.wecr.wur.nl/gamstools/index.htm                                  
-
+This software can be used freely. It is developed for the use with GAMS (https://www.gams.com/) which is proprietary software. However GAMS in demo version is absolutely fantastic for data management. Especially incombination with AWK. AWK is shipped with GAMS and can be integrated seamlessly.
 
 
 # Terms of use
