@@ -14,6 +14,9 @@ This means we can describe any JSON format metadata schema using MetaData_Struct
 
 we have a linkage file [versionlinks.json] that allows us know how these structure files are linked. We need this because it could well be that a new version of the structure files is developed and we need to know how they are linked.
 
+# Examples
+https://github.com/GideonKruseman/OIMS_examples
+
 # TO DO
 1. not all parts of the structure files have been completed. thgis needs to be done.
 2. besides the basic metadata schemas there are other metadata schemas that can be incoroporated into the system. The schema needs to be described in the generic terms though.
