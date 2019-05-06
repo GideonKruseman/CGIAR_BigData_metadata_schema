@@ -20,13 +20,11 @@ we have a linkage file [versionlinks.json] that allows us know how these structu
 3. We are running into issues that there are missing ontology terms for some of our metadata fields. We can take this up with the Ontology WEG of the CGIAR Platform for Big Data in Agriculture: Marie-Angelique LaPorte and Elizabeth Arnaud.
 4. We need a concordance file for metadata schema fields.
 5. We need concordance file(s) for elements of controled vocabularies used in different schemas. 
+6. Documentation
 
 # Remarks   :                                                                  
- 1. Note that // as field name denotes a comment. We use this notation       
-becauseJSON does not have a specific functionality for adding comments and we
-feel that commenting is essential for making code transparent.               
- 2. Note that we use GTREE notation to allow a structured view of the JSON   
-metadata schema using the GTREE integrated development environment           
+ 1. Note that // as field name denotes a comment. We use this notation because JSON does not have a specific functionality for adding comments and we feel that commenting is essential for making code transparent.               
+ 2. Note that we use GTREE notation to allow a structured view of the JSON metadata schema using the GTREE integrated development environment:           
 https://www.wecr.wur.nl/gamstools/index.htm                                  
 
 
