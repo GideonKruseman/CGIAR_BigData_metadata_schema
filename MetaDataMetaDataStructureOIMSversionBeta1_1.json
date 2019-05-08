@@ -1,0 +1,665 @@
+{
+   {
+      "//":"<%GTREE 1 comment%>",
+      "AttributeName":"//",
+      "AttributeDescription":"comment",
+      "Status":"optional",
+      "TypeClass":"primitive",
+      "Multiple": true,
+      "DataType": [
+         "text",
+         "HTML"
+      ]
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"comment",
+            "OntologyTermDescription":"A written explanation, observation or criticism added to textual material.",
+            "OntologyName":"NCIT",
+            "OntologyTermID":"C25393",
+            "OntolgyURL":"http://purl.obolibrary.org/obo/NCIT_C25393",
+            "OntologyTermQuality":"Exact"
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 2 AttributeName%>",
+      "AttributeName":"AttributeName",
+      "AttributeDescription":"the name of a metadata field",
+      "Status":"required",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"Simple character string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"Name",
+            "OntologyTermDescription":"The words or language units by which a thing is known.",
+            "OntologyName":"NCIT",
+            "OntologyTermID":"C42614",
+            "OntolgyURL":"http://purl.obolibrary.org/obo/NCIT_C42614",
+            "OntologyTermQuality":"to be confirmed"
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 3 AttributeDescription%>",
+      "AttributeName":"AttributeDescription",
+      "AttributeDescription":"Description of a metadata field",
+      "Status":"required",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 4 Status%>",
+      "AttributeName":"Status",
+      "AttributeDescription":"identification if a metadata field is: required; recommended; required if applicable; recommended if applicable; optional",
+      "Status":"recommended",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"enumeration",
+      "ControlledVocabulary": [
+          {
+              "//":"<%GTREE 4.1 required%>",
+              "VocabularyElementName":"required",
+              "VocabularyElementDescription":"If the metadata field is required at all times",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 4.2 recommended%>",
+              "VocabularyElementName":"recommended",
+              "VocabularyElementDescription":"If the metadata field is recommended but not strictly required",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 4.3 required if applicable%>",
+              "VocabularyElementName":"required if applicable",
+              "VocabularyElementDescription":"required if applicable",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 4.4 recommended if appliacble%>",
+              "VocabularyElementName":"recommended if applicable",
+              "VocabularyElementDescription":"recommended if applicable",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 4.5 optional%>",
+              "VocabularyElementName":"optional",
+              "VocabularyElementDescription":"metadata field can be used if the information is available",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          }
+      ],
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 5 TypeClass%>",
+      "AttributeName":"TypeClass",
+      "AttributeDescription":"if the metadata field is compound or primitive",
+      "Status":"required",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"enumeration",
+      "ControlledVocabulary": [
+          {
+              "//":"<%GTREE 5.1 primitive%>",
+              "VocabularyElementName":"primitive",
+              "VocabularyElementDescription":"metadata does not have attributes",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 5.2 compound%>",
+              "VocabularyElementName":"compound",
+              "VocabularyElementDescription":"metadata field has attributes and thus metadata fields underlying it",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          }
+      ],
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 6 Multiple%>",
+      "AttributeName":"Multiple",
+      "AttributeDescription":"can the metadata field have multiple values",
+      "Status":"required",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"boolean",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 7 DataType%>",
+      "AttributeName":"DataType",
+      "AttributeDescription":"The datatypes of the AttributeNames used in the metadata of the metadata",
+      "Status":"required",
+      "TypeClass":"primitive",
+      "Multiple": true,
+      "DataType":"enumeration",
+      "ControlledVocabulary": [
+          {
+              "//":"<%GTREE 7.1 Simple character string%>",
+              "VocabularyElementName":"Simple character string",
+              "VocabularyElementDescription":"simple machine readable language independent sequence of characters",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"Simple Character String Data Type",
+                    "OntologyTermDescription":"A data type comprised of a text string that can be displayed or machine processed and which has no language.",
+                    "OntologyName":"NCIT",
+                    "OntologyTermID":"C95682",
+                    "OntolgyURL":"http://purl.obolibrary.org/obo/NCIT_C95682",
+                    "OntologyTermQuality":"unknown"
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 7.2 String%>",
+              "VocabularyElementName":"string",
+              "VocabularyElementDescription":"a character string",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          }
+          {
+              "//":"<%GTREE 7.3 Boolean%>",
+              "VocabularyElementName":"boolean",
+              "VocabularyElementDescription":"false, true, [blank]",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"NCIT",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":"unknown"
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 7.4 enumeration%>",
+              "VocabularyElementName":"enumeration",
+              "VocabularyElementDescription":"the value of the attribute is part of a ControlledVocabulary",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 7.5 text%>",
+              "VocabularyElementName":"text",
+              "VocabularyElementDescription":"text",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 7.6 HTML%>",
+              "VocabularyElementName":"HTML",
+              "VocabularyElementDescription":"text formated according to Hyper-text Markup language (HTML) standards",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 7.7 compound%>",
+              "VocabularyElementName":"compound",
+              "VocabularyElementDescription":"the value of the attribute is a set of attribute value combinations",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          }
+      ],
+   },
+   {
+      "//":"<%GTREE 8 ControlledVocabulary%>",
+      "AttributeName":"ControlledVocabulary",
+      "AttributeDescription":"controlled vocabulary definition if data type is enumeration",
+      "Status":"required if applicable",
+      "TypeClass":"compound",
+      "Multiple": true,
+      "DataType":"compound",
+      "AttributeValueElements": [
+          "VocabularyElementName",
+          "VocabularyElementDescription"
+          "OntologyTerm"
+      ]
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 8.1 VocabularyElementName%>",
+      "AttributeName":"VocabularyElementName",
+      "AttributeDescription":"the unique VocabularyElement in a Controlled Vocabulary",
+      "Status":"required if applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"simple character string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 8.2 VocabularyElementDescription%>",
+      "AttributeName":"VocabularyElementDescription",
+      "AttributeDescription":"the description of the unique VocabularyElement in the controled vocabulary",
+      "Status":"required mif applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 9 OntologyTerm%>",
+      "AttributeName":"OntologyTerm",
+      "AttributeDescription":"ontology term for the relevant attribute",
+      "Status":"recommended",
+      "TypeClass":"compound",
+      "Multiple": true,
+      "DataType":"compound",
+      "AttributeValueElements": [
+          "OntologyTermName",
+          "OntologyTermDescription",
+          "OntologyName",
+          "OntologyTermID",
+          "OntolgyURL",
+          "OntologyTermQuality"
+      ]
+
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 9.1 OntologyTermName%>",
+      "AttributeName":"OntologyTermName",
+      "AttributeDescription":"term in an ontology that describes the relevant attribute value",
+      "Status":"recommended if applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"Simple character string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 9.2 OntologyTermDescription%>",
+      "AttributeName":"OntologyTermDescription",
+      "AttributeDescription":"Description of the ontology term",
+      "Status":"recommended if applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 9.3 OntologyName%>",
+      "AttributeName":"OntologyName",
+      "AttributeDescription":"the name of the ontology from which we take the ontology term",
+      "Status":"required if applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"Simple character string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 9.4 OntologyTermID%>",
+      "AttributeName":"OntologyTermID",
+      "AttributeDescription":"the identifier for the ontology term in the specified ontology",
+      "Status":"required if applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"simple character string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 9.5 OntologyURL%>",
+      "AttributeName":"OntolgyURL",
+      "AttributeDescription":"persistent URL where the ontology term can be found",
+      "Status":"required if applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"URL",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 9.6 OntologyTermQuality%>",
+      "AttributeName":"OntologyTermQuality",
+      "AttributeDescription":"identifies to what degree the ontology term matches the attribute value",
+      "Status":"recommended if applicable",
+      "TypeClass":"primitive",
+      "Multiple": false,
+      "DataType":"enumeration",
+      "ControlledVocabulary": [
+          {
+              "//":"<%GTREE 9.6.1 Exact match%>",
+              "VocabularyElementName":"Exact match",
+              "VocabularyElementDescription":"",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"NCIT",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 9.6.2 Too general%>",
+              "VocabularyElementName":"too general",
+              "VocabularyElementDescription":"the ontology term covers the attribute, but the attribute is more specific than the ontology term",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"NCIT",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 9.6.3 too specific%>",
+              "VocabularyElementName":"too specific",
+              "VocabularyElementDescription":"the ontology term covers only part of the attribute, the attribute is broader than the ontology term",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"NCIT",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 9.6.4 to be confirmed%>",
+              "VocabularyElementName":"to be confirmed",
+              "VocabularyElementDescription":"the ontology term needs to be confirmed by an ontology expert",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"NCIT",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+          {
+              "//":"<%GTREE 9.6.4 Unknown%>",
+              "VocabularyElementName":"unknown",
+              "VocabularyElementDescription":"unknown if it is an exact match, too general or too specific",
+              "OntologyTerm": [
+                 {
+                    "OntologyTermName":"",
+                    "OntologyTermDescription":"",
+                    "OntologyName":"NCIT",
+                    "OntologyTermID":"",
+                    "OntolgyURL":"",
+                    "OntologyTermQuality":""
+                 }
+              ]
+
+          },
+      ]
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+   {
+      "//":"<%GTREE 10 AttributeValueElements%>",
+      "AttributeName":"AttributeValueElements",
+      "AttributeDescription":"attributes that are part of a compound attribute",
+      "Status":"required if applicable",
+      "TypeClass":"primitive",
+      "Multiple": true,
+      "DataType":"simple character string",
+      "OntologyTerm": [
+         {
+            "OntologyTermName":"",
+            "OntologyTermDescription":"",
+            "OntologyName":"",
+            "OntologyTermID":"",
+            "OntolgyURL":"",
+            "OntologyTermQuality":""
+         }
+      ]
+   },
+
+*! <%GTREE <color=clred> to do: ontology terms%>
+}
