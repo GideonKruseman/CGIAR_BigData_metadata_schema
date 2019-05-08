@@ -50,6 +50,7 @@
       "DataType":"string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 3.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -74,6 +75,7 @@
               "VocabularyElementDescription":"If the metadata field is required at all times",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 4.1.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -90,6 +92,7 @@
               "VocabularyElementDescription":"If the metadata field is recommended but not strictly required",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 4.2.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -106,6 +109,7 @@
               "VocabularyElementDescription":"required if applicable",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 4.3.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -122,6 +126,7 @@
               "VocabularyElementDescription":"recommended if applicable",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 4.4.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -138,6 +143,7 @@
               "VocabularyElementDescription":"metadata field can be used if the information is available",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 4.5.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -151,6 +157,7 @@
       ],
       "OntologyTerm": [
          {
+            "//":"<%GTREE 4.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -175,6 +182,7 @@
               "VocabularyElementDescription":"metadata does not have attributes",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 5.1.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -191,6 +199,7 @@
               "VocabularyElementDescription":"metadata field has attributes and thus metadata fields underlying it",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 5.2.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -204,6 +213,7 @@
       ],
       "OntologyTerm": [
          {
+            "//":"<%GTREE 5.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -223,6 +233,7 @@
       "DataType":"boolean",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 6.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -247,6 +258,7 @@
               "VocabularyElementDescription":"simple machine readable language independent sequence of characters",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 7.1.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"Simple Character String Data Type",
                     "OntologyTermDescription":"A data type comprised of a text string that can be displayed or machine processed and which has no language.",
                     "OntologyName":"NCIT",
@@ -263,6 +275,7 @@
               "VocabularyElementDescription":"a character string",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 7.2.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -279,6 +292,7 @@
               "VocabularyElementDescription":"false, true, [blank]",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 7.3.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"NCIT",
@@ -295,6 +309,7 @@
               "VocabularyElementDescription":"the value of the attribute is part of a ControlledVocabulary",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 7.4.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -311,6 +326,7 @@
               "VocabularyElementDescription":"text",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 7.5.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -327,6 +343,7 @@
               "VocabularyElementDescription":"text formated according to Hyper-text Markup language (HTML) standards",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 7.6.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -343,6 +360,7 @@
               "VocabularyElementDescription":"the value of the attribute is a set of attribute value combinations",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 7.7.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"",
@@ -370,6 +388,7 @@
       ]
       "OntologyTerm": [
          {
+            "//":"<%GTREE 8.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -389,6 +408,7 @@
       "DataType":"simple character string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 8.1.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -408,6 +428,7 @@
       "DataType":"string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 8.2.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -436,6 +457,7 @@
 
       "OntologyTerm": [
          {
+            "//":"<%GTREE 9.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -455,6 +477,7 @@
       "DataType":"Simple character string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 9.1.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -474,6 +497,7 @@
       "DataType":"string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 9.2.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -493,6 +517,7 @@
       "DataType":"Simple character string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 9.3.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -512,6 +537,7 @@
       "DataType":"simple character string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 9.4.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -531,6 +557,7 @@
       "DataType":"URL",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 9.5.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -555,6 +582,7 @@
               "VocabularyElementDescription":"",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 9.6.1.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"NCIT",
@@ -571,6 +599,7 @@
               "VocabularyElementDescription":"the ontology term covers the attribute, but the attribute is more specific than the ontology term",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 9.6.2.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"NCIT",
@@ -587,6 +616,7 @@
               "VocabularyElementDescription":"the ontology term covers only part of the attribute, the attribute is broader than the ontology term",
               "OntologyTerm": [
                  {
+                    "//":"<%GTREE 9.6.3.todo <color=clred> to do: ontology terms%>"
                     "OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"NCIT",
@@ -603,7 +633,8 @@
               "VocabularyElementDescription":"the ontology term needs to be confirmed by an ontology expert",
               "OntologyTerm": [
                  {
-                    "OntologyTermName":"",
+                    "//":"<%GTREE 9.6.4.todo <color=clred> to do: ontology terms%>"
+                    "OntologyTermName":"","OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"NCIT",
                     "OntologyTermID":"",
@@ -614,12 +645,12 @@
 
           },
           {
-              "//":"<%GTREE 9.6.4 Unknown%>",
+              "//":"<%GTREE 9.6.5 Unknown%>",
               "VocabularyElementName":"unknown",
               "VocabularyElementDescription":"unknown if it is an exact match, too general or too specific",
               "OntologyTerm": [
                  {
-                    "OntologyTermName":"",
+                    "//":"<%GTREE 9.6.5.todo <color=clred> to do: ontology terms%>""OntologyTermName":"",
                     "OntologyTermDescription":"",
                     "OntologyName":"NCIT",
                     "OntologyTermID":"",
@@ -632,6 +663,7 @@
       ]
       "OntologyTerm": [
          {
+            "//":"<%GTREE 9.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -651,6 +683,7 @@
       "DataType":"simple character string",
       "OntologyTerm": [
          {
+            "//":"<%GTREE 10.todo <color=clred> to do: ontology terms%>"
             "OntologyTermName":"",
             "OntologyTermDescription":"",
             "OntologyName":"",
@@ -661,5 +694,5 @@
       ]
    },
 
-*! <%GTREE <color=clred> to do: ontology terms%>
+"//":"<%GTREE <color=clred> to do: ontology terms expand the tree to see where%>"
 }
