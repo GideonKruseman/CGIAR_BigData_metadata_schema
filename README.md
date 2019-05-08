@@ -4,16 +4,17 @@ human-readable, machine-actionable flexible and extensible, ontology-independent
 We want to Launch the metadata schema as soon as possible so we are moving forward with the OIMS metadata schema development
 
 StructureOIMSversionBeta1_1_0.json is the version of late April 2019 but is not generic enough and is missing out some crucial details.
-StructureOIMSversionBeta1_1_1.json is the version of early May 2019 and we intend to use this as the test case. This describes the metadata schema
+StructureOIMSversionBeta1_1_1.json is the version of early May 2019 and we intend to use this as the test case. This describes the metadata schema.
 
 MetaData_StructureOIMS_version_1_0.json describes StructureOIMSversionBeta1_1_1.json
 
-MetaData_MetaData_StructureOIMS_version_1_0.json  describes  MetaData_StructureOIMS_version_1_0.json and it describes itself
+MetaData_MetaData_StructureOIMS_version_1_1.json  describes  MetaData_StructureOIMS_version_1_0.json and it describes itself
 
 This means we can describe any JSON format metadata schema using MetaData_StructureOIMS_version_1_0.json
 
 we have a linkage file [versionlinks.json] that allows us know how these structure files are linked. We need this because it could well be that a new version of the structure files is developed and we need to know how they are linked.
 
+Full documentation is under development and can be found here: https://docs.google.com/document/d/1lxkRvV0MJAYLms9ojLa7uLwSIkdDb-O0WNtD3RkQeYs/edit?usp=sharing
 # Examples
 https://github.com/GideonKruseman/OIMS_examples
 
