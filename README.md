@@ -1,5 +1,5 @@
 # CGIAR_BigData_metadata_schema
-human-readable, machine-actionable flexible and extensible, ontology-independent metadata schema focused on making messy socio-economic data FAIRER [read more...](GideonKruseman.github.io)
+human-readable, machine-actionable flexible and extensible, ontology-independent metadata schema focused on making messy socio-economic data FAIRER [read more...](https://gideonkruseman.github.io/)
 
 We want to Launch the metadata schema as soon as possible so we are moving forward with the OIMS metadata schema development
 
